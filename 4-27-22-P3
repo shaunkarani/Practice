@@ -1,1 +1,39 @@
 Write your Answer here
+public class CodeWordChecker
+{
+  private int first;
+  private int second;
+  private String checker;
+  
+  public CodeWordChecker(int a, int b, String c)
+  {
+    first = a;
+    second = b;
+    checker = c;
+  }
+  
+  public CodeWordChecker(String d)
+  {
+    first = 6;
+    second = 20;
+    checker = d;
+  }
+  
+  public boolean isValid(String str)
+  {
+    if(str.length < first || str.length > second)
+    {
+      return false;
+    }
+    
+    if(str.equals(checker)
+    {
+      return false;
+    }
+    
+    return true;
+  }
+
+
+
+}
